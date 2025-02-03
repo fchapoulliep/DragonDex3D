@@ -40,7 +40,8 @@
 @media screen and (max-width: 768px) {
   #navbar .navbar-dragonball {
     width: 90%;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 8px;
   }
 
   #navbar .navbar-dragonball * {
@@ -50,6 +51,6 @@
 
   #navbar p,
   #navbar a {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
