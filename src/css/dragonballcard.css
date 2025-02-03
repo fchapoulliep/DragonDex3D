@@ -92,7 +92,9 @@
   .inner-element img.dragon-ball-character-image {
     min-height: 30%;
   }
+}
 
+@media screen and (min-height: 700px) {
   .dragonball-cards.dragon-ball-z {
     background-position: 100px 380px;
   }
@@ -102,7 +104,7 @@
   }
 
   .dragonball-cards.dragon-ball-gt {
-    background-position: 80px 360px;
+    background-position: 80px 380px;
   }
 
   .dragonball-cards.dragon-ball-super {
