@@ -1,0 +1,751 @@
+[
+  {
+    "name": "Android 16",
+    "id": 1,
+    "type": "hero",
+    "description": "A gentle and peaceful android designed for combat, but with a strong moral code.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Android 16 (Halloween)",
+    "id": 2,
+    "type": "hero",
+    "description": "Android 16 dressed in a spooky Halloween costume, ready to fight for justice.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Android 17",
+    "id": 3,
+    "type": "hero",
+    "description": "A former villain turned protector of Earth, known for his calm demeanor and immense power.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Android 17 (Ranger)",
+    "id": 4,
+    "type": "hero",
+    "description": "Android 17 in his park ranger outfit, dedicated to protecting wildlife and nature.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Android 18",
+    "id": 5,
+    "type": "hero",
+    "description": "A fierce and independent fighter, known for her strength and love for her family.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Android 18 (Casual)",
+    "id": 6,
+    "type": "hero",
+    "description": "Android 18 in casual attire, enjoying a peaceful life with her family.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Android 18 (Christmas)",
+    "id": 7,
+    "type": "hero",
+    "description": "Android 18 spreading holiday cheer in her festive Christmas outfit.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Android 21",
+    "id": 8,
+    "type": "evil",
+    "description": "A brilliant scientist with a dual personality, driven by her hunger and scientific curiosity.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Android 21 (Lab Coat)",
+    "id": 9,
+    "type": "evil",
+    "description": "Android 21 in her lab coat, showcasing her intelligence and dangerous experiments.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Android 21 (Summer)",
+    "id": 10,
+    "type": "evil",
+    "description": "Android 21 enjoying the summer, but still a threat to those who cross her path.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Bardock (Base Form)",
+    "id": 11,
+    "type": "hero",
+    "description": "A low-class Saiyan warrior and father of Goku, known for his bravery and foresight.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Bardock (Super Saiyan)",
+    "id": 12,
+    "type": "hero",
+    "description": "Bardock achieving the legendary Super Saiyan form, fighting for the future of his race.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Beerus",
+    "id": 13,
+    "type": "hero",
+    "description": "The God of Destruction, Beerus, who maintains balance in the universe with his immense power.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Beerus (Halloween)",
+    "id": 14,
+    "type": "hero",
+    "description": "Beerus in a Halloween costume, still as powerful and unpredictable as ever.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Broly (Base Form)",
+    "id": 15,
+    "type": "evil",
+    "description": "A Saiyan with uncontrollable power, driven by rage and a tragic past.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Broly (Dragon Ball Super)",
+    "id": 16,
+    "type": "hero",
+    "description": "A reimagined Broly, seeking peace but struggling with his immense power.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Broly (Legendary Super Saiyan)",
+    "id": 17,
+    "type": "evil",
+    "description": "Broly in his Legendary Super Saiyan form, a destructive force of nature.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Bulma",
+    "id": 18,
+    "type": "hero",
+    "description": "A brilliant scientist and one of the most important figures in the Dragon Ball universe.",
+    "saga": "Dragon Ball"
+  },
+  {
+    "name": "Burter",
+    "id": 19,
+    "type": "evil",
+    "description": "The fastest member of the Ginyu Force, known for his speed and loyalty to Frieza.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Captain Ginyu",
+    "id": 20,
+    "type": "evil",
+    "description": "The leader of the Ginyu Force, known for his body-swapping technique and flamboyant style.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Captain Ginyu (Spring)",
+    "id": 21,
+    "type": "evil",
+    "description": "Captain Ginyu in a festive spring outfit, still as dangerous as ever.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Caulifla",
+    "id": 22,
+    "type": "hero",
+    "description": "A Saiyan from Universe 6, known for her fierce fighting spirit and determination.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Cell (Halloween)",
+    "id": 23,
+    "type": "evil",
+    "description": "Cell in a Halloween costume, still a terrifying and powerful foe.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Cell (Imperfect)",
+    "id": 24,
+    "type": "evil",
+    "description": "The initial form of Cell, driven by the need to absorb Androids to achieve perfection.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Cell (Perfect)",
+    "id": 25,
+    "type": "evil",
+    "description": "Cell in his perfect form, a nearly unstoppable force with the powers of the greatest warriors.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Chiaotzu",
+    "id": 26,
+    "type": "hero",
+    "description": "A small but loyal fighter, known for his psychic abilities and friendship with Tien.",
+    "saga": "Dragon Ball"
+  },
+  {
+    "name": "Cooler (Final Form)",
+    "id": 27,
+    "type": "evil",
+    "description": "Frieza's older brother, Cooler, in his powerful final form, seeking revenge on Goku.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Frieza (Final Form)",
+    "id": 28,
+    "type": "evil",
+    "description": "Frieza in his most powerful form, a ruthless tyrant with immense destructive power.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Frieza (First Form)",
+    "id": 29,
+    "type": "evil",
+    "description": "Frieza in his initial form, a cunning and merciless emperor of the universe.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Frieza (Spring)",
+    "id": 30,
+    "type": "evil",
+    "description": "Frieza in a spring-themed outfit, still as dangerous and malevolent as ever.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Gogeta (Super Saiyan 4)",
+    "id": 31,
+    "type": "hero",
+    "description": "The fusion of Goku and Vegeta in their Super Saiyan 4 forms, a powerful protector of Earth.",
+    "saga": "Dragon Ball GT"
+  },
+  {
+    "name": "Gogeta (Super Saiyan Blue)",
+    "id": 32,
+    "type": "hero",
+    "description": "The fusion of Goku and Vegeta in their Super Saiyan Blue forms, a nearly unstoppable force for good.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Gohan (Adult)",
+    "id": 33,
+    "type": "hero",
+    "description": "Gohan as an adult, balancing his life as a scholar and a protector of Earth.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Gohan (Adult, Spring)",
+    "id": 34,
+    "type": "hero",
+    "description": "Adult Gohan in a spring outfit, ready to defend Earth with his immense power.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Gohan (Kid)",
+    "id": 35,
+    "type": "hero",
+    "description": "Gohan as a child, showing great potential and courage despite his young age.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Gohan (Teen, Super Saiyan 2)",
+    "id": 36,
+    "type": "hero",
+    "description": "Teen Gohan achieving the Super Saiyan 2 form, a pivotal moment in the fight against Cell.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Gohan (Teen, Super Saiyan 2, Summer)",
+    "id": 37,
+    "type": "hero",
+    "description": "Teen Gohan in his Super Saiyan 2 form, enjoying the summer while staying vigilant.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Goku (Base Form)",
+    "id": 38,
+    "type": "hero",
+    "description": "Goku in his base form, a pure-hearted warrior always seeking to become stronger.",
+    "saga": "Dragon Ball"
+  },
+  {
+    "name": "Goku (GT)",
+    "id": 39,
+    "type": "hero",
+    "description": "Goku as a child in the GT series, still a powerful defender of Earth.",
+    "saga": "Dragon Ball GT"
+  },
+  {
+    "name": "Goku (Halloween)",
+    "id": 40,
+    "type": "hero",
+    "description": "Goku in a Halloween costume, ready to fight evil while enjoying the festivities.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Goku (Super Saiyan 1, Torn Gi)",
+    "id": 41,
+    "type": "hero",
+    "description": "Goku in his Super Saiyan form with a torn gi, showcasing his determination and strength.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Goku (Super Saiyan 3)",
+    "id": 42,
+    "type": "hero",
+    "description": "Goku in his Super Saiyan 3 form, a transformation that pushes his limits to new heights.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Goku (Super Saiyan 4)",
+    "id": 43,
+    "type": "hero",
+    "description": "Goku in his Super Saiyan 4 form, a powerful transformation from the GT series.",
+    "saga": "Dragon Ball GT"
+  },
+  {
+    "name": "Goku (Super Saiyan Blue)",
+    "id": 44,
+    "type": "hero",
+    "description": "Goku in his Super Saiyan Blue form, a divine transformation with immense power.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Goku (Super Saiyan Blue, Whis Gi)",
+    "id": 45,
+    "type": "hero",
+    "description": "Goku in his Super Saiyan Blue form, wearing the gi given by Whis, symbolizing his training with the gods.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Goku (Super Saiyan)",
+    "id": 46,
+    "type": "hero",
+    "description": "Goku in his classic Super Saiyan form, a symbol of hope and strength.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Goku (Super Saiyan, Summer)",
+    "id": 47,
+    "type": "hero",
+    "description": "Goku in his Super Saiyan form, enjoying the summer while staying ready to protect Earth.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Goku (Ultra Instinct)",
+    "id": 48,
+    "type": "hero",
+    "description": "Goku mastering the Ultra Instinct technique, a state of unparalleled power and reflexes.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Goku Black",
+    "id": 49,
+    "type": "evil",
+    "description": "An alternate version of Goku from a dark timeline, seeking to destroy all mortals.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Goku Black (Spring)",
+    "id": 50,
+    "type": "evil",
+    "description": "Goku Black in a spring-themed outfit, still a dangerous and malevolent force.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Goku Black (Super Saiyan Rosé)",
+    "id": 51,
+    "type": "evil",
+    "description": "Goku Black in his Super Saiyan Rosé form, a divine and deadly transformation.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Golden Frieza",
+    "id": 52,
+    "type": "evil",
+    "description": "Frieza in his Golden form, a powerful transformation achieved through intense training.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Gotenks (Summer)",
+    "id": 53,
+    "type": "hero",
+    "description": "The fusion of Goten and Trunks in their summer outfit, ready to fight evil with their unique techniques.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Gotenks (Super Saiyan 3)",
+    "id": 54,
+    "type": "hero",
+    "description": "Gotenks in his Super Saiyan 3 form, a powerful fusion with a playful attitude.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Great Saiyaman",
+    "id": 55,
+    "type": "hero",
+    "description": "Gohan's superhero alter ego, fighting crime with a sense of justice and a flashy costume.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Great Saiyaman (w_ Helmet)",
+    "id": 56,
+    "type": "hero",
+    "description": "Great Saiyaman with his helmet on, ready to protect the innocent in style.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Guldo",
+    "id": 57,
+    "type": "evil",
+    "description": "A member of the Ginyu Force, known for his psychic abilities and cowardly nature.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Hercule",
+    "id": 58,
+    "type": "hero",
+    "description": "The self-proclaimed champion of the world, known for his bravado and occasional heroism.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Hit",
+    "id": 59,
+    "type": "hero",
+    "description": "A legendary assassin from Universe 6, known for his time-skip technique and calm demeanor.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Hit (Spring)",
+    "id": 60,
+    "type": "hero",
+    "description": "Hit in a spring-themed outfit, still a deadly and efficient assassin.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Jamemba",
+    "id": 61,
+    "type": "evil",
+    "description": "A powerful demon from the movie 'Fusion Reborn,' known for his chaotic and destructive nature.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Jeice",
+    "id": 62,
+    "type": "evil",
+    "description": "A member of the Ginyu Force, known for his red skin and explosive techniques.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Jiren",
+    "id": 63,
+    "type": "hero",
+    "description": "A powerful warrior from Universe 11, known for his immense strength and stoic nature.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Kefla",
+    "id": 64,
+    "type": "hero",
+    "description": "The fusion of Caulifla and Kale, a powerful Saiyan warrior from Universe 6.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Kefla",
+    "id": 64,
+    "type": "hero",
+    "description": "The fusion of Caulifla and Kale, a powerful Saiyan warrior from Universe 6.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Kid Buu",
+    "id": 65,
+    "type": "evil",
+    "description": "The pure and most dangerous form of Majin Buu, a chaotic and destructive force.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Kid Buu (Halloween)",
+    "id": 66,
+    "type": "evil",
+    "description": "Kid Buu in a Halloween costume, still a terrifying and unpredictable foe.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Krillin",
+    "id": 67,
+    "type": "hero",
+    "description": "One of Earth's strongest warriors, known for his bravery and friendship with Goku.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Krillin (Christmas)",
+    "id": 68,
+    "type": "hero",
+    "description": "Krillin in a festive Christmas outfit, spreading holiday cheer while protecting Earth.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Krillin (Police Officer)",
+    "id": 69,
+    "type": "hero",
+    "description": "Krillin as a police officer, upholding the law and protecting the innocent.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Majin Buu",
+    "id": 70,
+    "type": "hero",
+    "description": "The good version of Majin Buu, known for his childlike innocence and immense power.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Majin Buu (Christmas)",
+    "id": 71,
+    "type": "hero",
+    "description": "Majin Buu in a festive Christmas outfit, spreading joy and goodwill.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Master Roshi",
+    "id": 72,
+    "type": "hero",
+    "description": "The Turtle Hermit, a wise and powerful martial artist who trained Goku and Krillin.",
+    "saga": "Dragon Ball"
+  },
+  {
+    "name": "Nappa",
+    "id": 73,
+    "type": "evil",
+    "description": "A Saiyan warrior and Vegeta's former partner, known for his brute strength and destructive nature.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Nappa (Spring)",
+    "id": 74,
+    "type": "evil",
+    "description": "Nappa in a spring-themed outfit, still a dangerous and destructive force.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Piccolo",
+    "id": 75,
+    "type": "hero",
+    "description": "A Namekian warrior and former rival of Goku, now a trusted ally and mentor to Gohan.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Piccolo (Cape)",
+    "id": 76,
+    "type": "hero",
+    "description": "Piccolo wearing his cape, a symbol of his wisdom and strength as a protector of Earth.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Piccolo (Postboy)",
+    "id": 77,
+    "type": "hero",
+    "description": "Piccolo in his postboy outfit, delivering justice and protection to the innocent.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Piccolo (Summer)",
+    "id": 78,
+    "type": "hero",
+    "description": "Piccolo enjoying the summer, still vigilant and ready to defend Earth.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Recoome",
+    "id": 79,
+    "type": "evil",
+    "description": "A member of the Ginyu Force, known for his immense strength and flamboyant personality.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Saibaman",
+    "id": 80,
+    "type": "evil",
+    "description": "Small but deadly creatures grown from seeds, used by Saiyans to test their opponents.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Super Baby 2",
+    "id": 81,
+    "type": "evil",
+    "description": "A powerful Tuffle parasite who takes over Vegeta's body, seeking revenge against the Saiyans.",
+    "saga": "Dragon Ball GT"
+  },
+  {
+    "name": "Supreme Kai of Time",
+    "id": 82,
+    "type": "hero",
+    "description": "A divine being who oversees the flow of time and protects history from disruptions.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Tien",
+    "id": 83,
+    "type": "hero",
+    "description": "A disciplined martial artist and former student of the Crane School, later becoming an ally of Goku.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Tien (Christmas)",
+    "id": 84,
+    "type": "hero",
+    "description": "Tien in a festive Christmas outfit, spreading holiday cheer with his disciplined demeanor.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Tien (Gi)",
+    "id": 85,
+    "type": "hero",
+    "description": "Tien in his traditional martial arts gi, showcasing his dedication to training and combat.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Trunks (Casual)",
+    "id": 86,
+    "type": "hero",
+    "description": "Trunks in his casual attire, a relaxed yet battle-ready warrior from the future.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Trunks (Christmas)",
+    "id": 87,
+    "type": "hero",
+    "description": "Trunks dressed for the holidays, proving that even warriors can enjoy Christmas festivities.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Trunks (Super Saiyan)",
+    "id": 88,
+    "type": "hero",
+    "description": "Trunks in his Super Saiyan form, wielding his sword with unmatched power and precision.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Vegeta (Base Form)",
+    "id": 89,
+    "type": "hero",
+    "description": "The proud Saiyan prince in his base form, showcasing his immense power and determination.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Vegeta (Christmas)",
+    "id": 90,
+    "type": "hero",
+    "description": "Vegeta reluctantly dressed in Christmas attire, embodying the spirit of the holiday—begrudgingly.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Vegeta (Halloween)",
+    "id": 91,
+    "type": "hero",
+    "description": "Vegeta in a Halloween-themed outfit, proving that even Saiyan warriors can enjoy a spooky night.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Vegeta (Majin)",
+    "id": 92,
+    "type": "evil",
+    "description": "Vegeta under Babidi's influence, gaining immense power while embracing his darker Saiyan instincts.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Vegeta (Super Saiyan Blue, Whis Armor)",
+    "id": 93,
+    "type": "hero",
+    "description": "Vegeta in his Super Saiyan Blue form, donning Whis's training armor for peak performance.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Vegeta (Super Saiyan)",
+    "id": 94,
+    "type": "hero",
+    "description": "Vegeta in his Super Saiyan form, showcasing his unyielding pride and strength.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Vegeta (Super Saiyan Blue",
+    "id": 95,
+    "type": "hero",
+    "description": "Vegeta in his Super Saiyan Blue form, exuding god-like power and determination.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Vegito (Base Form)",
+    "id": 96,
+    "type": "hero",
+    "description": "The fusion of Goku and Vegeta using the Potara earrings, an immensely powerful warrior.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Vegito (Super Saiyan Blue)",
+    "id": 97,
+    "type": "hero",
+    "description": "Vegito in his Super Saiyan Blue form, an unparalleled fusion warrior with god-like strength.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Videl (Long Hair)",
+    "id": 98,
+    "type": "hero",
+    "description": "The daughter of Mr. Satan and Gohan's wife, a skilled martial artist with a strong will.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Videl (Short Hair)",
+    "id": 99,
+    "type": "hero",
+    "description": "Videl with her short hair, symbolizing her transformation into a determined warrior and hero.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Whis",
+    "id": 100,
+    "type": "hero",
+    "description": "Whis, the angelic attendant of Beerus, possesses immense wisdom and unfathomable power.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Yamcha",
+    "id": 101,
+    "type": "hero",
+    "description": "A former desert bandit turned martial artist, known for his bravery and unfortunate defeats.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Yamcha (Baseball)",
+    "id": 102,
+    "type": "hero",
+    "description": "Yamcha in his baseball uniform, showcasing his athletic prowess outside of battle.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Yamcha (Casual)",
+    "id": 103,
+    "type": "hero",
+    "description": "Yamcha in his casual attire, enjoying life outside of combat and training.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Yamcha (Summer)",
+    "id": 104,
+    "type": "hero",
+    "description": "Yamcha in summer attire, proving that even warriors need a break under the sun.",
+    "saga": "Dragon Ball Z"
+  },
+  {
+    "name": "Zamasu",
+    "id": 105,
+    "type": "evil",
+    "description": "A rogue Kai who despises mortals and seeks to cleanse the universe in his twisted vision of justice.",
+    "saga": "Dragon Ball Super"
+  },
+  {
+    "name": "Zamasu (Fused)",
+    "id": 106,
+    "type": "evil",
+    "description": "The fusion of Zamasu and Goku Black, an immortal being with limitless power and hatred for mortals.",
+    "saga": "Dragon Ball Super"
+  }
+]

@@ -1,0 +1,55 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  color: #f1f1f1;
+}
+
+#navbar .navbar-dragonball {
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  width: 70%;
+  background-color: #586a9e;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: 200ms all;
+}
+
+#navbar .navbar-dragonball * {
+  width: 33.3333%;
+  display: flex;
+}
+
+#navbar .navbar-dragonball *:nth-child(1) {
+  justify-content: flex-end;
+}
+
+#navbar .navbar-dragonball *:nth-child(2) {
+  justify-content: center;
+}
+
+#navbar .navbar-dragonball *:nth-child(3) {
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar .navbar-dragonball {
+    width: 90%;
+    justify-content: space-evenly;
+  }
+
+  #navbar .navbar-dragonball * {
+    display: block;
+    width: auto;
+  }
+
+  #navbar p,
+  #navbar a {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,98 @@
+.dragonball-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+  color: white;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  transition: height 0.3s ease-in-out;
+}
+
+.dragonball-cards.dragon-ball-z {
+  background-color: #fbbc42;
+  background-image: url("../assets/card-types/dragon-ball-z.svg");
+  background-repeat: no-repeat;
+  background-position: top 20px center;
+  background-size: 60%;
+}
+
+.dragonball-cards.dragon-ball {
+  background-color: #1c4595;
+  background-image: url("../assets/card-types/dragon-ball.svg");
+  background-repeat: no-repeat;
+  background-position: top 20px center;
+  background-size: 60%;
+}
+
+.dragonball-cards.dragon-ball-gt {
+  background-color: #ff6600;
+  background-image: url("../assets/card-types/dragon-ball-gt.svg");
+  background-repeat: no-repeat;
+  background-position: top 20px center;
+  background-size: 60%;
+}
+
+.dragonball-cards.dragon-ball-super {
+  background-color: #e72542;
+  background-image: url("../assets/card-types/dragon-ball-super.svg");
+  background-repeat: no-repeat;
+  background-position: top 20px center;
+  background-size: 60%;
+}
+
+.inner-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  transform: translateZ(60px);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-element img.dragon-ball-character-image {
+  min-height: 50%;
+}
+
+.inner-element a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.inner-element a p {
+  margin: 0;
+}
+
+.inner-element .dragonball-types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 10px;
+  width: 100%;
+}
+
+.inner-element .dragonball-types img {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-element img.dragon-ball-character-image {
+    min-height: 40%;
+  }
+}
