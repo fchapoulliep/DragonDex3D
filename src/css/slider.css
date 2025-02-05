@@ -33,20 +33,33 @@
   animation: glow 1s infinite;
   transition: transform 0.2s ease-in-out;
 }
+:root {
+  --glow-animation-time: 2s;
+}
+
+/* Appliquer l'animation glow synchronisée */
+.slider-left svg, .slider-right svg {
+  animation: glow var(--glow-animation-time) infinite linear;
+}
+
+/* Quand un slider est hover, on met en pause les deux */
+.slider-left:hover svg,
+.slider-right:hover svg,
+.slider-left:hover ~ .slider-right svg,
+.slider-right:hover ~ .slider-left svg {
+  animation: none;
+}
+
+/* Déplacements légers pour l'effet dynamique */
+.slider-left:hover svg {
+  transform: scale(1.2) translateX(-2px);
+}
 
 .slider-right:hover svg {
   transform: scale(1.2) translateX(2px);
-  color: rgb(210, 67, 61);
-  animation: none;
 }
 
-.slider-left:hover svg {
-  transform: scale(1.2) translateX(-2px);
-  fill: rgb(210, 67, 61);
-  animation: none;
-}
-
-
+/* Glow toujours synchronisé */
 @keyframes glow {
   0% {
     color: rgba(210, 67, 61, 0.5);
@@ -57,8 +70,4 @@
   100% {
     color: rgba(210, 67, 61, 0.5);
   }
-}
-
-.slider-left svg, .slider-right svg {
-  animation: slide-left-right 2s infinite, glow 2s infinite;
 }

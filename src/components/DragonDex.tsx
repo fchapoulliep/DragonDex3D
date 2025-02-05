@@ -55,6 +55,21 @@ const DragonDex: React.FC = () => {
   };
 
   /**
+   * Normalizes a given text string by:
+   * 1. Decomposing combined graphemes into their constituent parts (NFD normalization).
+   * 2. Removing diacritical marks (accents).
+   * 3. Converting the text to lowercase.
+   *
+   * @param text - The input string to be normalized.
+   * @returns The normalized string.
+   */
+  const normalizeText = (text: string) =>
+    text
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+
+  /**
    * filterDragonBallCharacter function that filters the Dragon Ball Characters list based on the search query and type.
    * @param query the search query
    * @param type the selected type
@@ -62,9 +77,13 @@ const DragonDex: React.FC = () => {
   const filterDragonBallCharacter = (query: string, type: string) => {
     const filteredDragonBallCharacter = dragonBallCharacterList.filter(
       (dragonBallCharacter) => {
-        const matchesName = dragonBallCharacter.name
-          .toLowerCase()
-          .startsWith(query);
+        const matchesName =
+          normalizeText(dragonBallCharacter.name).startsWith(
+            normalizeText(query)
+          ) ||
+          normalizeText(dragonBallCharacter.name).includes(
+            normalizeText(query)
+          );
         const matchesType =
           type === "" ? true : dragonBallCharacter.saga === type;
         return matchesName && matchesType;
