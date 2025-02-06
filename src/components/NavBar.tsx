@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import "../css/navbar.css";
 
 /**
- * NavBar component renders the navigation bar for the Pokedex 3D application.
+ * NavBar component renders the navigation bar for the DragonDex 3D application.
  * It includes links to the Home, About, and Contact pages.
  *
  * @component
