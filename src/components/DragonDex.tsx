@@ -116,7 +116,7 @@ const DragonDex: React.FC = () => {
             <option value="">All Sagas</option>
             {Array.from(
               new Set(
-                dragonBallCharacterList.flatMap((pokemon) => pokemon.saga)
+                dragonBallCharacterList.flatMap((dragonballcharacter) => dragonballcharacter.saga)
               )
             ).map((type, index) => (
               <option key={index} value={type}>
