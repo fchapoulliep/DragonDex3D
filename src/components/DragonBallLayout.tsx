@@ -25,7 +25,7 @@ const DragonBallLayout: React.FC = () => {
       <NavBar />
       {dragonballId !== "1" && <Slider direction="left" />}
       <DragonBallCharacter dragonBallId={dragonballId || "defaultId"} />
-      {dragonballId !== "151" && <Slider direction="right" />}
+      {dragonballId !== "106" && <Slider direction="right" />}
     </>
   );
 };
