@@ -29,15 +29,19 @@ const NavBar: React.FC = () => {
   return (
     <nav id="navbar">
       <div className="navbar-dragonball">
-        <Link to="/">Back to the DragonDex</Link>
+        <div className="navbar-link">
+          <Link to="/">Back to the DragonDex</Link>
+        </div>
         <div className="navbar-time">{time}</div>
-        <a
-          href="https://fchapoulliep.github.io/portfolio/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Creator's portfolio
-        </a>
+        <div className="navbar-link">
+          <a
+            href="https://fchapoulliep.github.io/portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Creator's portfolio
+          </a>
+        </div>
       </div>
     </nav>
   );

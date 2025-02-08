@@ -21,20 +21,20 @@
   border: solid rgba(231, 229, 232, 0.8) 7px;
 }
 
-#navbar .navbar-dragonball * {
+#navbar .navbar-dragonball div {
   width: 33.333%;
   display: flex;
 }
 
-#navbar .navbar-dragonball *:nth-child(1) {
+#navbar .navbar-dragonball div:nth-child(1) {
   justify-content: flex-end;
 }
 
-#navbar .navbar-dragonball *:nth-child(2) {
+#navbar .navbar-dragonball div:nth-child(2) {
   justify-content: center;
 }
 
-#navbar .navbar-dragonball *:nth-child(3) {
+#navbar .navbar-dragonball div:nth-child(3) {
   justify-content: flex-start;
 }
 
@@ -52,13 +52,12 @@
     gap: 10px;
   }
 
-  #navbar .navbar-dragonball * {
-    display: block;
+  #navbar .navbar-dragonball div {
     width: auto;
   }
 
   #navbar p,
   #navbar a {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
