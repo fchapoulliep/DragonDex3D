@@ -88,9 +88,17 @@
   height: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .inner-element img.dragon-ball-character-image {
-    min-height: 30%;
+.inner-element img.dragon-ball-character-image {
+  width: 70%;
+  height: 65%;
+  object-fit: cover;
+}
+
+@media screen and (max-height: 600px) {
+  .inner-element img.naruto-character-image {
+    width: 30%;
+    height: 45%;
+    object-fit: cover;
   }
 }
 
